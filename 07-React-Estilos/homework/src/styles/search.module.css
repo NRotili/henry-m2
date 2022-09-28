@@ -1,0 +1,26 @@
+.search {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+}
+
+.input {
+    background-color: #264653;
+    color: var(--text);
+    border: 1px solid var(--text);
+    border-radius: 0.25rem;
+}
+
+.input::placeholder {
+    color: whitesmoke;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.btn {
+    border: 1px solid #264653;
+    background-color: var(--border);
+    color: whitesmoke;
+}

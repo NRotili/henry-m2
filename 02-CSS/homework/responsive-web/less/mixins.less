@@ -1,0 +1,48 @@
+// Mixins acá
+.flex(@direction: row, @justify: center, @align: center) {
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.img-rounded(@radius: 20px) {
+    border-radius: @radius;
+}
+
+.btn-basic(@background; @color; @font-size) {
+    background-color: @background;
+    color: @color;
+    font-size: @font-size;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-basic-hover(@background; @font-size) {
+    background-color: @background;
+    font-size: @font-size;
+}
+
+.btn() {
+    // Franco toma prestadas las propiedades del botón de Bootstrap
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    //...
+}
+
+.btn-henry(@bgColor, @fontColor) {
+    .btn();
+    color: @fontColor;
+    background-color: @bgColor;
+
+    &:hover {
+        background-color: white;
+        color: black;
+        border: 1px solid @bgColor;
+    }
+}

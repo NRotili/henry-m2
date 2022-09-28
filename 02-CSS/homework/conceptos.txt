@@ -1,0 +1,5 @@
+Framework: es un conjunto de herramientas que nos facilitan la creación de aplicaciones, así no tenemos que comenzar de cero a programar cada aplicación. Para el caso de CSS, un framework nos brinda estilos predefinidos para que los usemos y podamos crear sitios web atractivos con poco esfuerzo. 
+
+Preprocesador: Un preprocesador agrega características a CSS (variables, mixins, funciones, etc...) que hacen que el CSS de un sitio sea más fácil de leer y mantener.
+
+Responsive website: se dice que un sitio web es responsive cuando se ve lindo en cualquier dispositivo, en una PC, en el celu, tablet, etc... Los componentes del sitio web se adaptan al dispositivo (o se ocultan) donde se está viendo el sitio web.

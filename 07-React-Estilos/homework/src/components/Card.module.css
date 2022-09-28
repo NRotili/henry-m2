@@ -1,0 +1,45 @@
+/* h2 {
+    text-align: center;
+} */
+
+.cardContainer {
+    margin: 2.5%;
+    width: 30%;
+    border: 1px solid rgb(198, 194, 194);
+    border-radius: 5px;
+    /* background-color: antiquewhite; */
+
+}
+
+#container {
+    margin: 2.5%;
+    width: 30%;
+    border: 1px solid rgb(198, 194, 194);
+    border-radius: 5px;
+}
+
+.tempContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    /* background-color: aliceblue; */
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: end;
+}
+
+button {
+    margin: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
